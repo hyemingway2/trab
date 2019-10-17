@@ -40,14 +40,18 @@ export default class Signup extends Vue {}
  .btn-bubble {
   color: white;
   
-  background-color: #77b11c;
+  background-color: #4f98f8
+
+
+;
   background-repeat: no-repeat;
   
   &:hover,
   &:focus {
     animation: bubbles 1s forwards ease-out;
     background: $bubbles;
-    background-color: #77b11c;
+    background-color: #5f91fc71
+;
     background-repeat: no-repeat;
   }
 }
@@ -55,7 +59,7 @@ export default class Signup extends Vue {}
 @keyframes bubbles {
   100% {
     background-position: $move;
-    box-shadow: inset 0 -6.5em 0 #0072c4;
+    box-shadow: inset 0 -6.5em 0 #4e85e4;
   }
 }
   
