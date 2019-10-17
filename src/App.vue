@@ -3,7 +3,8 @@
     <div id="header">
       <router-link to="/"><img src="./assets/logo.png" alt="TraB"></router-link>
       <div id="nav">
-        <router-link to="/signin">로그인/회원가입</router-link> |
+        <router-link to="/signin">로그인</router-link> /
+        <router-link to="/signup">회원가입</router-link> |
         <router-link to="/travel">국내/해외여행</router-link> |
         <router-link to="/designer">설계자 명단</router-link> |
         <router-link to="/sell">여행계획 판매하기</router-link>
